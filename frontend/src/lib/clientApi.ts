@@ -2,7 +2,9 @@
 // Pure browser-compatible API client for Kontrakan Coffee REST API
 
 import {
+  MENU_ITEMS,
   GALLERY_ITEMS,
+  PROMO_ITEMS,
   CAFE_INFO,
   CafeMenuItem,
   CafeGalleryItem,
@@ -32,8 +34,8 @@ export interface ApiKategori {
 /**
  * Mendapatkan URL basis API backend secara dinamis:
  * 1. Jika NEXT_PUBLIC_API_URL didefinisikan, gunakan itu.
- * 2. Jika di browser, arahkan ke hostname yang sama pada port 5000 (mendukung localhost dan IP LAN HP seperti 192.168.x.x:5000).
- * 3. Default fallback ke http://localhost:5000/api.
+ * 2. Jika di browser pada localhost / IP LAN port dev, arahkan ke port 5000 Express API.
+ * 3. Jika di environment production / Netlify, gunakan relative path "/api" (didukung static API JSON).
  */
 export function getBackendApiUrl(): string {
   if (process.env.NEXT_PUBLIC_API_URL) {
@@ -42,9 +44,17 @@ export function getBackendApiUrl(): string {
   if (typeof window !== "undefined") {
     const protocol = window.location.protocol;
     const hostname = window.location.hostname;
-    return `${protocol}//${hostname}:5000/api`;
+    const isLocalDev =
+      hostname === "localhost" ||
+      hostname === "127.0.0.1" ||
+      hostname.startsWith("192.168.") ||
+      hostname.startsWith("10.");
+    if (isLocalDev && window.location.port === "3000") {
+      return `${protocol}//${hostname}:5000/api`;
+    }
+    return "/api";
   }
-  return "http://localhost:5000/api";
+  return "/api";
 }
 
 async function requestWithTimeout<T>(
@@ -55,10 +65,22 @@ async function requestWithTimeout<T>(
   const timer = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
-    const res = await fetch(url, {
+    let res = await fetch(url, {
       signal: controller.signal,
       headers: { Accept: "application/json" },
     });
+
+    // Jika 404 pada URL tanpa ekstensi, coba fallback ke static endpoint .json
+    if (!res.ok && !url.includes(".json")) {
+      const jsonUrl = url.includes("?")
+        ? url.replace("?", ".json?")
+        : `${url}.json`;
+      res = await fetch(jsonUrl, {
+        signal: controller.signal,
+        headers: { Accept: "application/json" },
+      });
+    }
+
     clearTimeout(timer);
     if (!res.ok) return null;
     const json = await res.json();
@@ -84,8 +106,14 @@ export async function getClientMenuResult(): Promise<MenuFetchResult> {
   const apiUrl = getBackendApiUrl();
   const data = await requestWithTimeout<any[]>(`${apiUrl}/menu`);
 
-  // 1. Jika CMS tidak terhubung / server mati / request timeout -> data === null
+  // 1. Jika CMS tidak terhubung / server mati / request timeout -> gunakan fallback resilien MENU_ITEMS
   if (data === null || !Array.isArray(data)) {
+    if (MENU_ITEMS && MENU_ITEMS.length > 0) {
+      return {
+        status: "success",
+        data: MENU_ITEMS,
+      };
+    }
     return {
       status: "error",
       error: "Sistem tidak dapat terhubung ke server CMS",
@@ -326,8 +354,14 @@ export async function getClientPromoResult(): Promise<PromoFetchResult> {
   const apiUrl = getBackendApiUrl();
   const data = await requestWithTimeout<ApiPromoItem[]>(`${apiUrl}/promo`);
 
-  // 1. Jika CMS tidak terhubung / server mati / request timeout -> data === null
+  // 1. Jika CMS tidak terhubung / server mati / request timeout -> gunakan fallback resilien PROMO_ITEMS
   if (data === null || !Array.isArray(data)) {
+    if (PROMO_ITEMS && PROMO_ITEMS.length > 0) {
+      return {
+        status: "success",
+        data: PROMO_ITEMS,
+      };
+    }
     return {
       status: "error",
       error: "Data tidak dapat ditemukan (server CMS tidak terhubung)",

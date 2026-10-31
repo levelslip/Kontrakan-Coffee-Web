@@ -6,4 +6,4 @@ foto: /images/placeholder-coffee.svg
 rekomendasi: false
 aktif: true
 ---
-Bloomm
+Perpaduan segar matcha premium Jepang dengan sirup buah beri segar yang manis asam dan menyegarkan.

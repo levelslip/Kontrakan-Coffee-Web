@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "diskon-senja",
+      "judul": "Promo Senja Ceria 20%",
+      "tipe": "promo",
+      "deskripsi": "Dapatkan diskon 20% untuk semua varian menu kopi setiap pukul 16:00 - 18:00 WIB.",
+      "tanggal_selesai": "2026-12-31",
+      "gambar": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200&auto=format&fit=crop",
+      "aktif": true
+    },
+    {
+      "id": "live-music-akustik",
+      "judul": "Acoustic Night: Senja Berdendang",
+      "tipe": "kegiatan",
+      "deskripsi": "Nikmati alunan musik akustik indie dan pop santai setiap hari Sabtu malam mulai pukul 19:30 WIB di area outdoor garden. Tanpa tiket masuk, cukup pesan menu favoritmu!",
+      "tanggal_selesai": "2026-12-31",
+      "gambar": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1200&auto=format&fit=crop",
+      "aktif": true
+    },
+    {
+      "id": "paket-pelajar",
+      "judul": "Paket Nongkrong Pelajar & Mahasiswa Rp 25.000",
+      "tipe": "promo",
+      "deskripsi": "Dapatkan kombinasi 1 Es Kopi Susu Senja + 1 Porsi Cireng Rujak Salju hanya Rp 25.000 dengan menunjukkan kartu pelajar atau KTM aktif. Berlaku setiap Senin hingga Jumat.",
+      "tanggal_selesai": "2026-12-31",
+      "gambar": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?q=80&w=1200&auto=format&fit=crop",
+      "aktif": true
+    }
+  ]
+}

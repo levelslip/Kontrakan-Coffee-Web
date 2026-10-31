@@ -6,4 +6,4 @@ foto: /images/placeholder-coffee.svg
 rekomendasi: false
 aktif: true
 ---
-Ngenyangin
+Roti panggang hangat dengan olesan selai Nutella tebal yang legit dan mengenyangkan.

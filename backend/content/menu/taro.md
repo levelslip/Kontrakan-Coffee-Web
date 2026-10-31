@@ -6,4 +6,4 @@ foto: /images/placeholder-coffee.svg
 rekomendasi: false
 aktif: true
 ---
-Mantap
+Minuman taro lembut berpadu dengan susu segar pilihan, manis pas dan menyegarkan.

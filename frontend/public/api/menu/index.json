@@ -1,0 +1,489 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "aerocano",
+      "slug": "aerocano",
+      "nama": "Aerocano",
+      "kategori": "kopi",
+      "harga": 14000,
+      "deskripsi": "Dengan biji kopi buatan barista ganteng (ikrom)",
+      "deskripsi_panjang": "Dengan biji kopi buatan barista ganteng (ikrom)",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "americano-cranberry",
+      "slug": "americano-cranberry",
+      "nama": "Americano Cranberry",
+      "kategori": "kopi",
+      "harga": 18000,
+      "deskripsi": "Cranberry asli dari Aceh.",
+      "deskripsi_panjang": "Cranberry asli dari Aceh.",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "americano-pink-cloud",
+      "slug": "americano-pink-cloud",
+      "nama": "Americano Pink Cloud",
+      "kategori": "kopi",
+      "harga": 18000,
+      "deskripsi": "Warna pink yang menggugah selera",
+      "deskripsi_panjang": "Warna pink yang menggugah selera",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "americano",
+      "slug": "americano",
+      "nama": "Americano",
+      "kategori": "kopi",
+      "harga": 13000,
+      "deskripsi": "Dengan pilihan biji kopi asli",
+      "deskripsi_panjang": "Dengan pilihan biji kopi asli",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "artisan-earl-grey",
+      "slug": "artisan-earl-grey",
+      "nama": "Artisan Earl Grey Tea",
+      "kategori": "non-kopi",
+      "harga": 16000,
+      "deskripsi": "Seduhan daun teh hitam pilihan dengan minyak bergamot Italia alami. Memberikan wangi sitrus menenangkan yang segar di tenggorokan.",
+      "deskripsi_panjang": "Seduhan daun teh hitam pilihan dengan minyak bergamot Italia alami. Memberikan wangi sitrus menenangkan yang segar di tenggorokan.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "Regular",
+        "Large"
+      ],
+      "rasa": [
+        "Hot Tea Pot",
+        "Iced Lemon Earl Grey"
+      ],
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "berry-lemonade",
+      "slug": "berry-lemonade",
+      "nama": "Berry Lemonade Fizz",
+      "kategori": "non-kopi",
+      "harga": 18000,
+      "deskripsi": "Minuman mocktail dingin berkarbonasi dengan perasan lemon asli dan selai stroberi segar buatan sendiri. Sangat menyegarkan dinikmati di siang terik.",
+      "deskripsi_panjang": "Minuman mocktail dingin berkarbonasi dengan perasan lemon asli dan selai stroberi segar buatan sendiri. Sangat menyegarkan dinikmati di siang terik.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "Large (16oz)"
+      ],
+      "rasa": [
+        "Strawberry Lemon",
+        "Blueberry Mint"
+      ],
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "butterscoth-sea-salt-latte",
+      "slug": "butterscoth-sea-salt-latte",
+      "nama": "Butterscoth Sea Salt Latte",
+      "kategori": "kopi",
+      "harga": 23000,
+      "deskripsi": "enak banget",
+      "deskripsi_panjang": "enak banget",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "cafe-latte",
+      "slug": "cafe-latte",
+      "nama": "Cafe Latte",
+      "kategori": "kopi",
+      "harga": 20000,
+      "deskripsi": "Paduan pas single shot espresso berkualitas dengan steamed milk lembut dan lapisan microfoam halus. Cocok untuk menemani sore santai.",
+      "deskripsi_panjang": "Paduan pas single shot espresso berkualitas dengan steamed milk lembut dan lapisan microfoam halus. Cocok untuk menemani sore santai.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "Regular",
+        "Large"
+      ],
+      "rasa": [
+        "Hot",
+        "Iced",
+        "Oat Milk (+5k)"
+      ],
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "caffe-latte",
+      "slug": "caffe-latte",
+      "nama": "Caffe Latte",
+      "kategori": "kopi",
+      "harga": 15000,
+      "deskripsi": "Kopi dengan susu yang menggugah mata.",
+      "deskripsi_panjang": "Kopi dengan susu yang menggugah mata.",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "cappucino-1",
+      "slug": "cappucino-1",
+      "nama": "cappucino",
+      "kategori": "kopi",
+      "harga": 15000,
+      "deskripsi": "enak banget",
+      "deskripsi_panjang": "enak banget",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "cappucino",
+      "slug": "cappucino",
+      "nama": "Mocca",
+      "kategori": "kopi",
+      "harga": 18000,
+      "deskripsi": "Paling best dan dicari banyak orang.",
+      "deskripsi_panjang": "Paling best dan dicari banyak orang.",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "caramel-macchiato",
+      "slug": "caramel-macchiato",
+      "nama": "Caramel Macchiato",
+      "kategori": "kopi",
+      "harga": 24000,
+      "deskripsi": "Kombinasi harmonis antara susu segar creamy, sirup vanilla premium, lapisan espresso pekat, dan siraman saus karamel legit di bagian atas.",
+      "deskripsi_panjang": "Kombinasi harmonis antara susu segar creamy, sirup vanilla premium, lapisan espresso pekat, dan siraman saus karamel legit di bagian atas.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "Regular",
+        "Large"
+      ],
+      "rasa": [
+        "Normal Sweet",
+        "Less Sweet"
+      ],
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "cireng-rujak",
+      "slug": "cireng-rujak",
+      "nama": "Cireng Salju Bumbu Rujak",
+      "kategori": "camilan",
+      "harga": 15000,
+      "deskripsi": "Camilan khas bertekstur krispi di luar dan kenyal lembut di dalam. Disajikan hangat bersama cocolan sambal rujak gula aren pedas, manis, dan sedikit asam segar.",
+      "deskripsi_panjang": "Camilan khas bertekstur krispi di luar dan kenyal lembut di dalam. Disajikan hangat bersama cocolan sambal rujak gula aren pedas, manis, dan sedikit asam segar.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "8 pcs"
+      ],
+      "rasa": [
+        "Pedas Sedang",
+        "Ekstra Pedas"
+      ],
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "coklat",
+      "slug": "coklat",
+      "nama": "Coklat",
+      "kategori": "non-kopi",
+      "harga": 20000,
+      "deskripsi": "Dengan pilihan coklat terbaik. diambil dari leher ikram",
+      "deskripsi_panjang": "Dengan pilihan coklat terbaik. diambil dari leher ikram",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "cold-brew-gayo",
+      "slug": "cold-brew-gayo",
+      "nama": "Cold Brew Gayo",
+      "kategori": "kopi",
+      "harga": 23000,
+      "deskripsi": "Kopi seduh dingin selama 16 jam menggunakan 100% biji Arabika Aceh Gayo pilihan. Memiliki tingkat keasaman rendah dengan aroma floral dan sentuhan rasa citrus a",
+      "deskripsi_panjang": "Kopi seduh dingin selama 16 jam menggunakan 100% biji Arabika Aceh Gayo pilihan. Memiliki tingkat keasaman rendah dengan aroma floral dan sentuhan rasa citrus alami.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "Regular (250ml)"
+      ],
+      "rasa": [
+        "Black",
+        "White (+Gula Aren)"
+      ],
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "croissant-butter",
+      "slug": "croissant-butter",
+      "nama": "Croissant Butter",
+      "kategori": "camilan",
+      "harga": 20000,
+      "deskripsi": "Croissant renyah berlapis dengan aroma butter Prancis yang harum.",
+      "deskripsi_panjang": "Croissant renyah berlapis dengan aroma butter Prancis yang harum.",
+      "foto": "/images/uploads/croissant.jpg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "egg-toast",
+      "slug": "egg-toast",
+      "nama": "Egg Toast",
+      "kategori": "camilan",
+      "harga": 15000,
+      "deskripsi": "Dengan telur ikram",
+      "deskripsi_panjang": "Dengan telur ikram",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "es-kopi-susu",
+      "slug": "es-kopi-susu",
+      "nama": "Es Kopi Susu",
+      "kategori": "kopi",
+      "harga": 18000,
+      "deskripsi": "Espresso, susu segar, dan gula aren pilihan dengan rasa seimbang dan creamy.",
+      "deskripsi_panjang": "Espresso, susu segar, dan gula aren pilihan dengan rasa seimbang dan creamy.",
+      "foto": "/images/uploads/es-kopi-susu.jpg",
+      "ukuran": [
+        "Regular",
+        "Large"
+      ],
+      "rasa": [
+        "Original",
+        "Aren"
+      ],
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "espresso",
+      "slug": "espresso",
+      "nama": "Espresso",
+      "kategori": "kopi",
+      "harga": 11000,
+      "deskripsi": "Dengan pilihan biji kopi asli.",
+      "deskripsi_panjang": "Dengan pilihan biji kopi asli.",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "kentang-truffle",
+      "slug": "kentang-truffle",
+      "nama": "Kentang Goreng Truffle Parmesan",
+      "kategori": "camilan",
+      "harga": 20000,
+      "deskripsi": "Kentang goreng renyah yang dibumbui aroma minyak white truffle mewah, ditaburi parutan keju parmesan gurih dan daun peterseli cincang. Disajikan bersama saus co",
+      "deskripsi_panjang": "Kentang goreng renyah yang dibumbui aroma minyak white truffle mewah, ditaburi parutan keju parmesan gurih dan daun peterseli cincang. Disajikan bersama saus cocolan tartar homemade.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "Porsi Reguler"
+      ],
+      "rasa": [
+        "Truffle Parmesan",
+        "Sea Salt Original"
+      ],
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "manual-brew-v60",
+      "slug": "manual-brew-v60",
+      "nama": "Manual Brew V60",
+      "kategori": "kopi",
+      "harga": 22000,
+      "deskripsi": "Seduhan tangan menggunakan metode pour-over V60 oleh barista kami. Menghasilkan karakter seduhan jernih dengan profil rasa unik dari setiap biji single origin p",
+      "deskripsi_panjang": "Seduhan tangan menggunakan metode pour-over V60 oleh barista kami. Menghasilkan karakter seduhan jernih dengan profil rasa unik dari setiap biji single origin pilihan.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "Hot Servings (200ml)"
+      ],
+      "rasa": [
+        "Flores Bajawa",
+        "Mandheling",
+        "Ethiopia Guji (+4k)"
+      ],
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "matcha-berry-bloom",
+      "slug": "matcha-berry-bloom",
+      "nama": "Matcha Berry Bloom",
+      "kategori": "non-kopi",
+      "harga": 23000,
+      "deskripsi": "Perpaduan segar matcha premium Jepang dengan sirup buah beri segar yang manis asam dan menyegarkan.",
+      "deskripsi_panjang": "Perpaduan segar matcha premium Jepang dengan sirup buah beri segar yang manis asam dan menyegarkan.",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "matcha-latte",
+      "slug": "matcha-latte",
+      "nama": "Matcha Latte",
+      "kategori": "non-kopi",
+      "harga": 20000,
+      "deskripsi": "Matcha asli jepang",
+      "deskripsi_panjang": "Matcha asli jepang",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "montblanc",
+      "slug": "montblanc",
+      "nama": "Montblanc",
+      "kategori": "kopi",
+      "harga": 23000,
+      "deskripsi": "enak banget",
+      "deskripsi_panjang": "enak banget",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "nutella-toast",
+      "slug": "nutella-toast",
+      "nama": "Nutella Toast",
+      "kategori": "camilan",
+      "harga": 15000,
+      "deskripsi": "Roti panggang hangat dengan olesan selai Nutella tebal yang legit dan mengenyangkan.",
+      "deskripsi_panjang": "Roti panggang hangat dengan olesan selai Nutella tebal yang legit dan mengenyangkan.",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "pain-au-chocolat",
+      "slug": "pain-au-chocolat",
+      "nama": "Pain au Chocolat",
+      "kategori": "camilan",
+      "harga": 22000,
+      "deskripsi": "Pastry gaya Prancis berlapis mentega harum dengan isian batangan cokelat pekat ganda yang lumer saat dihangatkan. Teman sempurna untuk secangkir cappuccino atau",
+      "deskripsi_panjang": "Pastry gaya Prancis berlapis mentega harum dengan isian batangan cokelat pekat ganda yang lumer saat dihangatkan. Teman sempurna untuk secangkir cappuccino atau latte.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "1 pcs"
+      ],
+      "rasa": [
+        "Dark Chocolate"
+      ],
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "red-velvet-cream",
+      "slug": "red-velvet-cream",
+      "nama": "Red Velvet Cream",
+      "kategori": "non-kopi",
+      "harga": 22000,
+      "deskripsi": "Paduan bubuk red velvet premium bernuansa cokelat lembut dengan susu vanila manis dan gurih. Disajikan dingin menyegarkan dengan warna merah delima yang cantik.",
+      "deskripsi_panjang": "Paduan bubuk red velvet premium bernuansa cokelat lembut dengan susu vanila manis dan gurih. Disajikan dingin menyegarkan dengan warna merah delima yang cantik.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "Regular",
+        "Large"
+      ],
+      "rasa": [
+        "Original Creamy",
+        "Cheese Foam Topping (+3k)"
+      ],
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "red-velvet",
+      "slug": "red-velvet",
+      "nama": "Red Velvet",
+      "kategori": "non-kopi",
+      "harga": 20000,
+      "deskripsi": "Merah merona dari red velvet",
+      "deskripsi_panjang": "Merah merona dari red velvet",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "roti-bakar-senja",
+      "slug": "roti-bakar-senja",
+      "nama": "Roti Bakar Senja Cokelat Keju",
+      "kategori": "camilan",
+      "harga": 18000,
+      "deskripsi": "Roti tawar gandum tebal dipanggang dengan olesan mentega gurih, ditaburi cokelat meses melimpah, parutan keju cheddar gurih, dan kucuran susu kental manis.",
+      "deskripsi_panjang": "Roti tawar gandum tebal dipanggang dengan olesan mentega gurih, ditaburi cokelat meses melimpah, parutan keju cheddar gurih, dan kucuran susu kental manis.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "Porsi Berbagi (4 Potong)"
+      ],
+      "rasa": [
+        "Cokelat Keju",
+        "Matcha Keju",
+        "Tiramisu"
+      ],
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "salted-caramel",
+      "slug": "salted-caramel",
+      "nama": "Salted Caramel",
+      "kategori": "kopi",
+      "harga": 23000,
+      "deskripsi": "enak banget",
+      "deskripsi_panjang": "enak banget",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    },
+    {
+      "id": "signature-dark-chocolate",
+      "slug": "signature-dark-chocolate",
+      "nama": "Signature Dark Chocolate",
+      "kategori": "non-kopi",
+      "harga": 22000,
+      "deskripsi": "Minuman cokelat kaya rasa dari perpaduan dark cocoa lokal Jawa Timur dan susu segar gurih. Teksturnya kental dengan rasa manis pahit yang seimbang dan menenangk",
+      "deskripsi_panjang": "Minuman cokelat kaya rasa dari perpaduan dark cocoa lokal Jawa Timur dan susu segar gurih. Teksturnya kental dengan rasa manis pahit yang seimbang dan menenangkan hati.",
+      "foto": "/images/placeholder-coffee.svg",
+      "ukuran": [
+        "Regular",
+        "Large"
+      ],
+      "rasa": [
+        "Hot",
+        "Iced",
+        "Extra Marshmallow"
+      ],
+      "rekomendasi": true,
+      "aktif": true
+    },
+    {
+      "id": "taro",
+      "slug": "taro",
+      "nama": "Taro",
+      "kategori": "non-kopi",
+      "harga": 20000,
+      "deskripsi": "Minuman taro lembut berpadu dengan susu segar pilihan, manis pas dan menyegarkan.",
+      "deskripsi_panjang": "Minuman taro lembut berpadu dengan susu segar pilihan, manis pas dan menyegarkan.",
+      "foto": "/images/placeholder-coffee.svg",
+      "rekomendasi": false,
+      "aktif": true
+    }
+  ]
+}

@@ -21,11 +21,24 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Lokasi content/ di dalam backend/
-const CONTENT_DIR = fs.existsSync(path.join(process.cwd(), "content"))
-  ? path.join(process.cwd(), "content")
-  : fs.existsSync(path.join(process.cwd(), "backend", "content"))
-  ? path.join(process.cwd(), "backend", "content")
-  : path.join(__dirname, "../../../content");
+function resolveContentDir(): string {
+  const candidates = [
+    path.join(process.cwd(), "content"),
+    path.join(process.cwd(), "backend", "content"),
+    path.join(process.cwd(), "..", "content"),
+    path.join(__dirname, "../../../content"),
+  ];
+  for (const dir of candidates) {
+    try {
+      if (fs.existsSync(dir) && fs.statSync(dir).isDirectory()) {
+        return dir;
+      }
+    } catch {}
+  }
+  return path.join(process.cwd(), "content");
+}
+
+const CONTENT_DIR = resolveContentDir();
 
 const DEFAULT_PLACEHOLDER = "/images/placeholder-coffee.svg";
 

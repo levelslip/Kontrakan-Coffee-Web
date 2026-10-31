@@ -57,6 +57,10 @@ export default function RootLayout({
         className="bg-cream text-coffee antialiased min-h-[100svh] selection:bg-sunshine selection:text-coffee font-sans"
         suppressHydrationWarning
       >
+        <Script
+          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+          strategy="afterInteractive"
+        />
         <Script id="identity-redirect" strategy="beforeInteractive">
           {`
             if (typeof window !== "undefined") {

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "data": {
+    "isOpen": true,
+    "pesanStatus": "BUKA SEKARANG • TUTUP 24:00",
+    "jamHariIni": {
+      "hari": "Sabtu",
+      "buka": "09:00",
+      "tutup": "24:00",
+      "libur": false
+    },
+    "hariIni": "Sabtu",
+    "sekarangJam": "16:21"
+  }
+}

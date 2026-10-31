@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "kopi",
+      "nama": "Kopi",
+      "urutan": 1
+    },
+    {
+      "id": "non-kopi",
+      "nama": "Non-Kopi",
+      "urutan": 2
+    },
+    {
+      "id": "camilan",
+      "nama": "Camilan",
+      "urutan": 3
+    }
+  ]
+}
